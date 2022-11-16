@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-16T08:12:44 PKT" name="test on browserstack" finished-at="2022-11-16T08:13:10 PKT" duration-ms="25635">
+    <groups>
+    </groups>
+    <test started-at="2022-11-16T08:12:44 PKT" name="Testonwindow11" finished-at="2022-11-16T08:13:10 PKT" duration-ms="25559">
+      <class name="com.learnautomation.testcases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTest@74589991]" started-at="2022-11-16T08:12:44 PKT" name="setup" finished-at="2022-11-16T08:12:57 PKT" duration-ms="12815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTest@74589991]" started-at="2022-11-16T08:12:57 PKT" name="login" data-provider="Login" finished-at="2022-11-16T08:13:05 PKT" duration-ms="7220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.learnautomation.testcases.LoginTest@74589991]" started-at="2022-11-16T08:13:05 PKT" name="logout" finished-at="2022-11-16T08:13:08 PKT" depends-on-methods="com.learnautomation.testcases.LoginTest.login" duration-ms="3768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTest@74589991]" started-at="2022-11-16T08:13:08 PKT" name="tearDown" finished-at="2022-11-16T08:13:10 PKT" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTest -->
+    </test> <!-- Testonwindow11 -->
+    <test started-at="2022-11-16T08:12:44 PKT" name="Testonwindow10" finished-at="2022-11-16T08:13:10 PKT" duration-ms="25635">
+      <class name="com.learnautomation.testcases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTest@7ae42ce3]" started-at="2022-11-16T08:12:44 PKT" name="setup" finished-at="2022-11-16T08:12:57 PKT" duration-ms="12524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTest@7ae42ce3]" started-at="2022-11-16T08:12:57 PKT" name="login" data-provider="Login" finished-at="2022-11-16T08:13:05 PKT" duration-ms="7412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.learnautomation.testcases.LoginTest@7ae42ce3]" started-at="2022-11-16T08:13:05 PKT" name="logout" finished-at="2022-11-16T08:13:09 PKT" depends-on-methods="com.learnautomation.testcases.LoginTest.login" duration-ms="3774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTest@7ae42ce3]" started-at="2022-11-16T08:13:09 PKT" name="tearDown" finished-at="2022-11-16T08:13:10 PKT" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTest -->
+    </test> <!-- Testonwindow10 -->
+  </suite> <!-- test on browserstack -->
+</testng-results>

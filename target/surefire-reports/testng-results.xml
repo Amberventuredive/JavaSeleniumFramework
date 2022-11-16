@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-15T17:33:52 PKT" name="Suite" finished-at="2022-11-15T17:34:11 PKT" duration-ms="18850">
+    <groups>
+    </groups>
+    <test started-at="2022-11-15T17:33:52 PKT" name="Test" finished-at="2022-11-15T17:34:11 PKT" duration-ms="18850">
+      <class name="com.learnautomation.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTest@121314f7]" started-at="2022-11-15T17:33:52 PKT" name="setup" finished-at="2022-11-15T17:34:02 PKT" duration-ms="10032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTest@121314f7]" started-at="2022-11-15T17:34:02 PKT" name="login" data-provider="Login" finished-at="2022-11-15T17:34:07 PKT" duration-ms="5236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.learnautomation.testcases.LoginTest@121314f7]" started-at="2022-11-15T17:34:07 PKT" name="logout" finished-at="2022-11-15T17:34:10 PKT" depends-on-methods="com.learnautomation.testcases.LoginTest.login" duration-ms="3039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTest@121314f7]" started-at="2022-11-15T17:34:10 PKT" name="tearDown" finished-at="2022-11-15T17:34:11 PKT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
