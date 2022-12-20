@@ -64,7 +64,7 @@ public class BrowserFactory {
 		return driver;
 		
 	}
-	public static WebDriver browsersetup(String osName, String osVersion, String browserName, String browserVersion )  {
+	/*public static WebDriver browsersetup(String osName, String osVersion, String browserName, String browserVersion )  {
 		WebDriver driver =null;
 		
 		DesiredCapabilities caps = new DesiredCapabilities();
@@ -89,6 +89,6 @@ public class BrowserFactory {
 		driver = new RemoteWebDriver(hubURL,caps);
 		return driver;
 		
-	}
+	}*/
 
 }

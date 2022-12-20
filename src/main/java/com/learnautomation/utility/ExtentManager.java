@@ -7,6 +7,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ExtentManager {
     
     private static ExtentReports extent;
+    public static String reportname= Helper.getdateformat();
     
     public static ExtentReports getInstance() 
     {
@@ -17,8 +18,10 @@ public class ExtentManager {
     }
     
     public static ExtentReports createInstance() 
+    
     {
-        ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir")+"/Reports/AutomationReports"+Helper.getdateformat()+".html");
+    	
+        ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir")+"/Reports/AutomationReports"+reportname+".html");
         htmlReporter.config().setTheme(Theme.DARK);
         htmlReporter.config().setDocumentTitle("Sprint Report");
         htmlReporter.config().setEncoding("utf-8");
